@@ -1,0 +1,270 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding-top: 56px;
+    padding-bottom: 86px;
+    display: flex;
+}
+.container{
+    max-width: 1220px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 40px;
+}
+.header__link{
+    color: #1f1534;
+    font-family: "Mulish";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    text-decoration: none;
+    opacity: 0.5;
+}
+.header__link:hover{
+    color: #1f1534;
+    font-weight: 700;
+    opacity: 1;
+    transition: 0.4s ease-in-out;
+}
+.header__link:active{
+    color: red;
+}
+.hero{
+    padding-bottom: 96px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero__textbox{
+    width: 440px;
+}
+.hero__title{
+    color: #000000;
+    font-family: "Mulish";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+}
+.hero__text{
+    color: #7d7987;
+    font-family: "Mulish";
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.hero__btn{
+    width: 197px;
+    border-radius: 55px;
+    background-color: #458ff6;
+    padding: 17px 0;
+    border: none;
+    color: #ffffff;
+    font-family: "Mulish";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+}
+.hero__btn:hover{
+    background-color: #000000;
+    transition: 0.4s ease-in-out;
+}
+.hero__btn:active{
+    background-color: red;
+}
+.services{
+    padding-bottom: 106px;
+}
+.services__textbox{
+    width: 952px;
+    margin: 0 auto;
+    text-align: center;
+}
+.services__title{
+    color: #000000;
+    font-family: "Mulish";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 61px;
+}
+.services__text{
+    color: #7d7987;
+    font-family: "Mulish";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.services__list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    
+}
+.services__item{
+    width: 380px;
+    border-radius: 20px;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+    background-color: #ffffff;
+    padding: 68px 58px 47px 41px;
+    margin-bottom: 40px;
+}
+.services__heading{
+    color: rgb(0, 0, 0);
+    font-family: "Mulish";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-top: 20px;
+}
+.services__desc{
+    color: #7d7987;
+    font-family: "Mulish";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
+.services__btn{
+    display: block;
+    border-radius: 50px;
+    width: 200px;
+    padding: 17px 0;
+    border: 1px solid #458ff6;
+    color: #458ff6;
+    background-color: transparent;
+    margin: 0 auto;
+    font-family: "Mulish";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+}
+.services__btn:hover{
+    background-color: black;
+    transition: 0.4s ease-in-out;
+}
+.services__btn:active{
+    background-color: rgb(209, 15, 15);
+    transition: 0.4s ease-in-out;
+}
+.check__title{
+    color: rgb(0, 0, 0);
+font-family: Mulish;
+font-size: 36px;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 100px;
+}
+.check__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    width: 380px;
+    height: 240px;
+    
+}
+.check__icons{
+    color: rgb(64, 137, 237);
+font-family: Mulish;
+font-size: 17px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration: none;
+}
+.check__links{
+    color: rgb(64, 137, 237);
+    font-family: Mulish;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+}
+.check__text{
+    color: rgb(125, 121, 135);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 300;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+}
+.text__infooter{
+    color: rgb(255, 255, 255);
+font-family: Mulish;
+font-size: 18px;
+font-weight: 300;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 210px;
+margin-top: 17px;
+margin-bottom: 95px;
+}
+.part__footer{
+position: absolute;
+width: 1519px;
+height: 325px;
+left: 0;
+right: 0;
+top: 2774px;
+bottom: -2774px;
+background: linear-gradient(211.68deg, rgb(103, 195, 243) 9.42%,rgb(90, 152, 242) 69.861%);
+}
+.img__logo{
+    margin-left: 210px;
+    margin-top: 116px;
+    
+}
+.check__heading{
+    color: rgb(0, 0, 0);
+font-family: Mulish;
+font-size: 21px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: left;
+}
+.footer__comp{
+    color: #ffffffff;
+font-family: Mulish;
+font-size: 20px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+
+margin-top: 116px;
+margin-left: 746px;
+}
+.check__wrapper{
+    margin-top: 55px;
+    margin-bottom: 55px;
+    display: flex;
+    justify-content: space-between;
+}
